@@ -1,0 +1,27 @@
+<view id="aboutUs">  
+    <view class="box">  
+      <view >使用说明:</view> 
+      <view class="second">← 清除上一层关系</view>
+      <view class="second">AC 清除所有输入</view>
+      <view >
+          授权说明：
+      </view>
+      <view class="second">
+      获取用户授权只用于首页头像和昵称显示，不影响身份信息
+      </view>
+      <view style='word-break:break-all;color:red;'>
+         特别说明：
+      </view>
+      <view >项目Github地址：</view>
+      <view style='word-break:break-all;' class="second">
+          https://github.com/a858742487
+      </view>
+    </view> 
+    
+    <view class="copyright" >  
+        Copyright © 2018 @国富
+    </view>
+    <button class='lgfGoWelcome' bindtap="navigateBack"  >返回</button>  
+</view>  
+
+

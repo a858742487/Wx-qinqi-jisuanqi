@@ -1,0 +1,53 @@
+
+   <!-- 用来显示Ta称呼我  -->
+   <!-- <view class="section">
+    <textarea  class="TaCallMe" value='我称呼TA' disabled='true'   />
+  </view>  -->
+  
+  <!-- 用来显示用户的选项比如我的儿子的爸爸  -->
+  <view >
+    <textarea  class="textstyle" value='{{screenData}}' disabled='true' maxlength="34"  />
+  </view>
+
+  <!-- 用来显示结果 -->
+  <view >
+    <textarea  class="result-style" value='{{result}}' disabled='true' style="text-align:right"  />
+  </view>
+  
+
+
+
+  <!-- 男女选择 判断是否被选中-->
+  <view class="body-view"  >
+      男
+      <switch class="switchClass" bindchange="switchChange"  />
+      女
+  </view>
+
+  <!-- 显示按钮功能 style="height:{{second_height}}px"-->
+  <view class="second" >
+    <view class="btnGroup"  >       
+        <view class="item normal" bindtap="clickButton" id="{{id1}}">夫</view>
+        <view class="item normal" bindtap="clickButton" id="{{id2}}">妻</view>
+        <view class="item normal" bindtap="clickButton" id="{{id3}}">←</view>
+        <view class="item normal-orange" bindtap="clickButton" id="{{id4}}">AC</view>
+    </view>
+
+    <view class="btnGroup">
+        <view class="item normal" bindtap="clickButton" id="{{id5}}">父</view>
+        <view class="item normal" bindtap="clickButton" id="{{id6}}">母</view>
+        <view class="item normal" bindtap="clickButton" id="{{id7}}">兄</view>
+        <view class="item normal" bindtap="clickButton" id="{{id8}}">弟</view>
+    </view>
+    <view class="btnGroup">
+        <view class="item normal" bindtap="clickButton" id="{{id9}}">姐</view>
+        <view class="item normal" bindtap="clickButton" id="{{id10}}">妹</view>
+        <view class="item normal" bindtap="clickButton" id="{{id11}}">子</view>
+        <view class="item normal" bindtap="clickButton" id="{{id12}}">女</view>
+    </view>
+    <view class="btnGroup">
+        <view class="item normal" bindtap="clickButton" id="{{id15}}">?</view>
+        <view class="item normal" bindtap="clickButton" id="{{id13}}">互查</view>
+        <view class="item2 orange" bindtap="clickButton" id="{{id14}}">=</view>
+    </view>
+  </view>
